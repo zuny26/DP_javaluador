@@ -1,4 +1,4 @@
-package AA; 
+package AA;
 
 import java.util.ArrayList;
 
@@ -38,6 +38,15 @@ public class P100{
             if (i<0 || j>=M) break;
         }
         return solution;
+    }
+
+    public static void main(String[] args) {
+        String data = "3 2 1 2 4 7 3";
+        P100 problem = new P100();
+        ArrayList<Integer>solution = problem.bestSolution(data);
+        for(Integer x : solution){
+            System.out.print(x + " ");
+        }
     }
 
 }
