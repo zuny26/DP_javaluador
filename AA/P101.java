@@ -1,5 +1,7 @@
 package AA;
-
+ 
+// javac .\AA\P101.java
+// java AA.P101
 import java.util.ArrayList;
 
 public class P101{
