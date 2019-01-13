@@ -1,7 +1,5 @@
 package AA; 
 
-import java.util.ArrayList;
-
 public class P002 {
 
     public String sol (String data){
