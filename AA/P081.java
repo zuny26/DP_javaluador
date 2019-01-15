@@ -45,7 +45,7 @@ public class P081{
     public static void main(String[] args) {
         // String[] data = {"8 2 10", "35 25 75", "9 10 10"};
         // String[] data = {"7 16 19 17 28 6 22 14 12 12", "26 9 94 14 1 15 49 96 6 27", "2 9 10 16 36 53 69 85 86 86"};
-        String[] data = {"15 12 12", "40 5 25", "25 25 25"};
+        String[] data = {"15 16 14", "40 41 25", "25 25 29"};
         P081 problem = new P081();
         System.out.println(problem.best(data));   
     }
